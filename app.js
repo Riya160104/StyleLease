@@ -9,7 +9,7 @@ var passport = require('passport');
   
 
 //connect to mongo
-mongoose.connect ('mongodb://localhost/thriftal')
+mongoose.connect ('mongodb+srv://Riya:Riya@cluster0.8wfwn.mongodb.net/thriftal_16')
 .then(()=>{
   console.log('here......')
 })
